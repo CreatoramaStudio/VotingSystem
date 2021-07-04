@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VotingSystem",
+	"Description": "Unreal Engine plugin for voting inputs ",
+	"Category": "Other",
+	"CreatedBy": "Z-Pass Software",
+	"CreatedByURL": "https://github.com/ZPassSoftware",
+	"DocsURL": "https://github.com/ZPassSoftware/VotingSystem",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/ZPassSoftware/VotingSystem",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VotingSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
