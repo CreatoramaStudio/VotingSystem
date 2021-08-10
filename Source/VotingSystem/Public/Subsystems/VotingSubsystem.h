@@ -54,7 +54,7 @@ class VOTINGSYSTEM_API UVotingSubsystem : public UWorldSubsystem
 	bool RemoveOption(const FString Option);
 
 	UFUNCTION(BlueprintCallable,Category= "Voting Subsystem")
-	bool Vote(const FString Option, const int32 NumberOfVotes);
+	bool Vote(const FString Option, const int32 NumberOfVotes, const bool bAddOption);
 
 	UFUNCTION(BlueprintPure,Category= "Voting Subsystem")
 	FString GetMostVotedOption();

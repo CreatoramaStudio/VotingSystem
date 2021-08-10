@@ -50,8 +50,13 @@ bool UVotingSubsystem::RemoveOption(const FString Option)
 	return false;
 }
 
-bool UVotingSubsystem::Vote(const FString Option, const int32 NumberOfVotes)
+bool UVotingSubsystem::Vote(const FString Option, const int32 NumberOfVotes, const bool bAddOption)
 {
+	if (bAddOption)
+	{
+		AddOption(Option);
+	}
+	
 	if (Votes.Contains(Option))
 	{
 		Votes[Option] += NumberOfVotes;
